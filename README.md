@@ -1,1 +1,2 @@
-[Link to the project] (https://github.com/Olesia22/shapes.git)
+[Link to the project] (https://olesia22.github.io/shapes/)
+
