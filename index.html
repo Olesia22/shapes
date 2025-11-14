@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>3D Morphing Shapes</title>
+</head>
+<body>
+	<main class="container">
+		<h1>3D Morphing Shapes</h1>
+		<section class="scene">
+			<article class="shape-container" id="shapeContainer">
+				<section class="shape cube" id="shape">
+					<figure class="shape-element cube-face front"></figure>
+					<figure class="shape-element cube-face back"></figure>
+					<figure class="shape-element cube-face right"></figure>
+					<figure class="shape-element cube-face left"></figure>
+					<figure class="shape-element cube-face top"></figure>
+					<figure class="shape-element cube-face bottom"></figure>
+				</section>
+			</article>
+				<section class="controls">
+					<button class="control-btn active" data-shape="cube">Cube</button>
+					<button class="control-btn" data-shape="sphere">Sphere</button>
+				</section>
+		</section>
+	</main>
+    <script src="script.js"></script>
+</body>
+</html>
